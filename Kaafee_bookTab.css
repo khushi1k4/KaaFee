@@ -1,0 +1,90 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+.root{
+    background: url(coffee_cup2.jpg) no-repeat;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+}
+
+.Tablebox{
+    background-color: rgba(115, 78, 14, 0.737);
+    width: 450px;
+    height: 500px;
+    margin-top: 80px;
+    padding: 20px;
+    padding-top: 50px;
+}
+
+.Tablebox h2{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding-left: 130px;
+    padding-bottom: 25px;
+    color: chocolate;
+}
+.Tablebox h2:hover{
+    transform: scale(2);
+}
+
+fieldset{
+    padding: 30px;
+    margin-left: 5px;
+    margin-right: 5px;
+    width: 370px;
+}
+
+#name{
+    margin-top: 3px;
+    margin-bottom: 5px;
+    padding: 4px;
+    width: 350px;
+}
+#email{
+    margin-top: 3px;
+    margin-bottom: 5px;
+    padding: 4px;
+    width: 350px;
+}
+#phn{
+    margin-top: 3px;
+    margin-bottom: 5px;
+    padding: 4px;
+    width: 350px;
+}
+#date{
+    margin-top: 3px;
+    margin-bottom: 5px;
+    padding: 4px;
+    width: 350px;
+}
+#time{
+    margin-top: 3px;
+    margin-bottom: 5px;
+    padding: 4px;
+    width: 350px;
+}
+
+#confirm{
+    width: 120px;
+    height: 30px;
+    text-transform: uppercase;
+    font-size: large;
+    font-weight: 700;
+    background-color: rgba(228, 149, 12, 0.629);
+    margin-top: 40px;
+    margin-left: 170px;
+    box-shadow: 1px 1px 3px 6px rgba(228, 149, 12, 0.629);
+    transition: ease-in-out;
+    transition-delay: 0.24s;
+}
+#confirm:hover{
+    background-color: rgba(14, 131, 163, 0.478);
+    box-shadow: 1px 1px 3px 6px rgba(14, 131, 163, 0.478);
+}
