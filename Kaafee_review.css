@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 *{
     padding: 0px;
     margin: 0px;
@@ -85,3 +86,92 @@
     background-color: rgba(11, 123, 136, 0.747);
     box-shadow: 2px 1px 10px 8px rgba(3, 88, 97, 0.456);
 }
+=======
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+#comment{
+    background: url(coffee_cup2.jpg) no-repeat;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+}
+
+.cmtbox{
+    background-color: rgba(115, 78, 14, 0.737);
+    width: 400px;
+    height: 420px;
+    margin-left: 450px;
+    margin-top: 100px;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+}
+
+.cmtbox h2{
+    color: rgb(226, 105, 18);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 5px;
+    margin-top: 10px;
+    text-decoration:wavy;
+}
+.cmtbox h2:hover{
+    transform: scale(2);
+}
+
+.cmt{
+    margin-top: 10px;
+    margin-left: 500px;
+    margin-right: 500px;
+    padding: 20px;
+    margin-bottom: 50px;
+    width: 300px;
+    height: 400px;
+}
+
+#name{
+    padding: 4px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 300px;
+}
+#email{
+    padding: 4px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 300px;
+}
+#review{
+    padding: 4px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    height: 100px;
+    width: 300px;
+}
+
+#submit{
+    margin-top: 15px;
+    margin-left: 100px;
+    width: 100px;
+    height: 30px;
+    background-color: rgba(237, 142, 17, 0.777);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border: 2px solid black;
+    text-shadow: 2px 2px 5px 5px black;
+    font-weight: 700;
+    box-shadow: 2px 1px 10px 6px rgba(237, 142, 17, 0.777);
+    transition: 0.4s ease-in-out;
+}
+#submit:hover{
+    transition-delay: 0.2s;
+    color: rgb(2, 12, 50);
+    background-color: rgba(11, 123, 136, 0.747);
+    box-shadow: 2px 1px 10px 8px rgba(3, 88, 97, 0.456);
+}
+>>>>>>> f31566e (update)

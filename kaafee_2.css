@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 *{
     padding: 0px;
     margin: 0px;
@@ -249,4 +250,265 @@ footer{
     background-color: rgba(128, 101, 3, 0.467);
     width: 100vw;
     height: 50px;
+=======
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+.container{
+    background: url(coffee_cup2.jpg) no-repeat;
+    background-size: cover;
+    width: 100vw;
+}
+
+.navbar{
+    background-color: rgba(79, 62, 2, 0.535);
+    width: 100vw;
+    height: 80px;
+    display: flex;
+    flex-direction: row;
+}
+
+.navlogo{
+    color: rgba(204, 120, 9, 0.95);
+    position: relative;
+    float: left;
+    margin-left: 20px;
+    padding-top: 15px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+}
+
+.navicons ul{
+    float: right;
+    margin-left: 15px;
+    margin-right: 15px;
+    padding-top: 15px;
+    align-items: center;
+}
+
+.navicons ul li{
+    list-style: none;
+    display: inline-block;
+    line-height: 45px;
+    margin-right: 80px;
+    font-weight: bolder;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+    font-style: normal;
+}
+
+.navicons ul li a{
+    color: bisque;
+    text-shadow: 5px 5px 10px beige;
+    transition: 0.4s ease-in-out;
+    text-decoration: none; /* It id USED to remove the underline below the icons of the anchor tag on nav bar  */
+}
+.navicons ul li a:hover{
+    transition-delay: 0.2s;
+    color: rgba(35, 198, 216, 0.562);
+    text-shadow: 5px 5px 10px rgba(14, 167, 184, 0.562);
+}
+
+.srchbar{
+    float: right;
+    margin-top: 25px;
+    padding-right: 25px;
+}
+
+.srchbar input{
+    width: 200px;
+    height: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    border: solid 1px rgba(93, 52, 2, 0.777);
+    padding: 4px;
+    font-size: 15px;
+    background-color: transparent;
+    box-shadow: 1px 1px 5px 4px #ad5a12c1;
+    margin: 5px;
+}
+
+.srchbar button{
+    height: 25px;
+    width: 70px;
+    border: solid 2px #743803d6;
+    background-color: rgba(215, 129, 15, 0.777);
+    font-size: large;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-shadow: 2px 2px 5px 5px black;
+    font-weight: 400;
+    box-shadow: 2px 1px 10px 4px rgba(237, 142, 17, 0.777);
+    transition: 0.4s ease-in-out;
+}
+.srchbar button:hover{
+    transition-delay: 0.2s;
+    color: rgb(2, 12, 50);
+    background-color: rgba(35, 198, 216, 0.562);
+    box-shadow: 2px 1px 10px 4px rgba(4, 132, 146, 0.456);
+}
+
+#about{
+    display: flex;
+    flex-direction: row;
+}
+
+.describe{
+    display: flex;
+    flex-direction: column;
+}
+
+h2{
+    color: bisque;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 45px;
+    padding-left: 40px;
+    padding-top: 60px;
+}
+p{
+    color: bisque;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 25px;
+    padding-left: 55px;
+    padding-top: 20px;
+}
+pre{
+    color: bisque;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 15px;
+    padding-left: 55px;
+    padding-top: 8px;
+    padding-bottom: 10px;
+    margin-bottom: 15px;
+    margin-right: 10px;
+}
+
+.booking{
+    width: 100px;
+    height: 70px;
+    padding: 5px;
+    margin-left: 150px;
+    margin-top: 28px;
+    margin-bottom: 30px;
+    border: solid 4px #743803d6;
+    background-color: rgba(237, 142, 17, 0.777);
+    font-size: 300;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-shadow: 2px 2px 5px 5px black;
+    font-weight: 700;
+    box-shadow: 2px 1px 10px 6px rgba(237, 142, 17, 0.777);
+    transition: 0.4s ease-in-out;
+}
+.booking:hover{
+    transition-delay: 0.2s;
+    color: rgb(2, 12, 50);
+    background-color: rgba(35, 198, 216, 0.562);
+    box-shadow: 2px 1px 10px 6px rgba(4, 132, 146, 0.456);
+}
+.booking a{
+    text-decoration: none;
+    color: black;
+}
+
+.reviewbttn{
+    width: 100px;
+    height: 70px;
+    padding: 5px;
+    margin-left: 150px;
+    margin-top: 28px;
+    margin-bottom: 58px;
+    border: solid 4px #743803d6;
+    background-color: rgba(237, 142, 17, 0.777);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-shadow: 2px 2px 5px 5px black;
+    font-weight: 700;
+    box-shadow: 2px 1px 10px 6px rgba(237, 142, 17, 0.777);
+    transition: 0.4s ease-in-out;
+}
+.reviewbttn:hover{
+    transition-delay: 0.2s;
+    color: rgb(2, 12, 50);
+    background-color: rgba(11, 123, 136, 0.747);
+    box-shadow: 2px 1px 10px 8px rgba(3, 88, 97, 0.456);
+}
+.reviewbttn a{
+    text-decoration: none;
+    color: black;
+}
+
+#gallery{
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 10px;
+}
+
+#galry{
+    color: chocolate;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    margin-top: 20px;
+    text-decoration:wavy;
+}
+#galry:hover{
+    transform: scale(2);
+}
+
+#photo1{
+    padding: 20px;
+}
+#photo2{
+    padding: 20px;
+}
+#photo3{
+    padding: 20px;
+}
+#photo4{
+    padding: 20px;
+}
+
+.end{
+    display: flex;
+    flex-direction: row;
+}
+
+.footer{
+    display: flex;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 80px;
+    
+}
+
+#contact h3{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: chocolate;
+    padding: 10px;
+    text-decoration: wavy;
+}
+#contact p{
+    padding-top: 5px;
+    color: black;
+    font-size:x-large;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#contact p a{
+    font-size: x-large;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+footer{
+    background-color: rgba(128, 101, 3, 0.467);
+    width: 100vw;
+    height: 50px;
+    
+}
+
+.copyright{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: medium;
+>>>>>>> f31566e (update)
 }
